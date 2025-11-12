@@ -1,0 +1,12 @@
+[server]
+headless = true
+enableCORS = false
+port = 8501
+enableWebsocketCompression = false
+enableXsrfProtection = false
+
+[static]
+directory = "static"
+
+[theme]
+base = "light"
